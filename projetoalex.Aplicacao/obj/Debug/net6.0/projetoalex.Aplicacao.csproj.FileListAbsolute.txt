@@ -1,0 +1,17 @@
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\bin\Debug\net6.0\projetoalex.Aplicacao.deps.json
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\bin\Debug\net6.0\projetoalex.Aplicacao.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\bin\Debug\net6.0\projetoalex.Aplicacao.pdb
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\bin\Debug\net6.0\projetoalex.Dominio.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\bin\Debug\net6.0\projetoalex.Repositorio.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\bin\Debug\net6.0\projetoalex.Repositorio.pdb
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\bin\Debug\net6.0\projetoalex.Dominio.pdb
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoalex.Aplicacao.csproj.AssemblyReference.cache
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoalex.Aplicacao.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoalex.Aplicacao.AssemblyInfoInputs.cache
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoalex.Aplicacao.AssemblyInfo.cs
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoalex.Aplicacao.csproj.CoreCompileInputs.cache
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoa.69B81E9E.Up2Date
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoalex.Aplicacao.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\refint\projetoalex.Aplicacao.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\projetoalex.Aplicacao.pdb
+C:\ProjetoAlex\projetoalex\projetoalex.Aplicacao\obj\Debug\net6.0\ref\projetoalex.Aplicacao.dll

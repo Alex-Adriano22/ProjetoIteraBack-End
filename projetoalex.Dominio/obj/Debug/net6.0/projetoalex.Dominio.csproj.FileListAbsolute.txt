@@ -1,0 +1,11 @@
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\bin\Debug\net6.0\projetoalex.Dominio.deps.json
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\bin\Debug\net6.0\projetoalex.Dominio.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\bin\Debug\net6.0\projetoalex.Dominio.pdb
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.AssemblyInfoInputs.cache
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.AssemblyInfo.cs
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.csproj.CoreCompileInputs.cache
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\refint\projetoalex.Dominio.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.pdb
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\ref\projetoalex.Dominio.dll
