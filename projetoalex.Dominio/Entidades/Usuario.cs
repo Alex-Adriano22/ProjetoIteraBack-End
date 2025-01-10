@@ -15,6 +15,7 @@ namespace Projetoalex.Dominio.Entidades
 
         #region Relacionamentos
 
+         
         #endregion
 
         public Usuario()

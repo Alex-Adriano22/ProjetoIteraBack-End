@@ -96,3 +96,4 @@ C:\ProjetoAlex\projetoalex\projetoalexApi\obj\Debug\net6.0\refint\projetoalexApi
 C:\ProjetoAlex\projetoalex\projetoalexApi\obj\Debug\net6.0\projetoalexApi.pdb
 C:\ProjetoAlex\projetoalex\projetoalexApi\obj\Debug\net6.0\projetoalexApi.genruntimeconfig.cache
 C:\ProjetoAlex\projetoalex\projetoalexApi\obj\Debug\net6.0\ref\projetoalexApi.dll
+C:\ProjetoAlex\projetoalex\projetoalexApi\obj\Debug\net6.0\projetoalexApi.sourcelink.json

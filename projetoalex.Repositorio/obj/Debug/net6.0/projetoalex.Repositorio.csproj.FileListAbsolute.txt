@@ -15,3 +15,4 @@ C:\ProjetoAlex\projetoalex\projetoalex.Repositorio\obj\Debug\net6.0\projetoalex.
 C:\ProjetoAlex\projetoalex\projetoalex.Repositorio\obj\Debug\net6.0\ref\projetoalex.Repositorio.dll
 C:\ProjetoAlex\projetoalex\projetoalex.Repositorio\bin\Debug\net6.0\projetoalex.Repositorio.runtimeconfig.json
 C:\ProjetoAlex\projetoalex\projetoalex.Repositorio\obj\Debug\net6.0\projetoalex.Repositorio.genruntimeconfig.cache
+C:\ProjetoAlex\projetoalex\projetoalex.Repositorio\obj\Debug\net6.0\projetoalex.Repositorio.sourcelink.json

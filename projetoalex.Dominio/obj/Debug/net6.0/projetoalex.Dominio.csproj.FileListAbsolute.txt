@@ -9,3 +9,4 @@ C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Domi
 C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\refint\projetoalex.Dominio.dll
 C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.pdb
 C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\ref\projetoalex.Dominio.dll
+C:\ProjetoAlex\projetoalex\projetoalex.Dominio\obj\Debug\net6.0\projetoalex.Dominio.sourcelink.json
