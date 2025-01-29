@@ -9,18 +9,19 @@ namespace Projetoalex.Dominio.Entidades
         public string Email { get; set; }
         public string Senha { get; set; }
 
-
+        public TipoUsuarioEnum TipoUsuario { get; set; }
 
         public bool Ativo { get; set; }
 
         #region Relacionamentos
 
-         
+
         #endregion
 
         public Usuario()
         {
             Ativo = true;
+            
         }
 
         public void Deletar()

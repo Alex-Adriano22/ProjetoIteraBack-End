@@ -56,6 +56,7 @@ namespace projeto360.Api
                     Nome = usuarioCriar.Nome,
                     Email = usuarioCriar.Email,
                     Senha = usuarioCriar.Senha,
+                    TipoUsuario = usuarioCriar.Tipo
 
                 };
 
@@ -65,7 +66,7 @@ namespace projeto360.Api
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro ao criar {ex.Message}");
+                return BadRequest( $"Erro ao criar {ex.Message}");
             }
         }
 
@@ -80,8 +81,6 @@ namespace projeto360.Api
                     Id = usuario.Id,
                     Nome = usuario.Nome,
                     Email = usuario.Email
-
-
 
                 };
 

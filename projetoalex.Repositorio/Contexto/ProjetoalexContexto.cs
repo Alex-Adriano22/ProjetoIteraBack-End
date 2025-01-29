@@ -9,7 +9,7 @@ public class ProjetoalexContexto : DbContext
     private readonly DbContextOptions _options;
 
     public DbSet<Usuario> Usuarios { get; set; }
-
+    public DbSet<Produtos> produtos { get; set; }
 
     public ProjetoalexContexto() { }
 
@@ -21,12 +21,13 @@ public class ProjetoalexContexto : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if (_options == null)
-           optionsBuilder.UseSqlServer("Server=DESKTOP-58UEHOH\\SQLEXPRESS02;Database=Alex.Santos;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-58UEHOH\\SQLEXPRESS02;Database=Alex.Santos;Trusted_Connection=True;TrustServerCertificate=True;");
     }
-    
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new UsuariosConfiguracoes());
+        modelBuilder.ApplyConfiguration(new ProdutoConfiguracoes());
     }
 }

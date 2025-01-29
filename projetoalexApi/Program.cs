@@ -6,9 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Adicione aplicações
 builder.Services.AddScoped<IUsuarioAplicacao, UsuarioAplicacao>();
+builder.Services.AddScoped<IProdutosAplicacao, ProdutoAplicacao>();
 
 //Adicione repositorio
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
+builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
 
 // Adicione os serviços
 

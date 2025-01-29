@@ -17,9 +17,8 @@ public class UsuariosConfiguracoes : IEntityTypeConfiguration<Usuario>
        builder.Property(nameof(Usuario.Email)).HasColumnName("Email").IsRequired(true);
        builder.Property(nameof(Usuario.Senha)).HasColumnName("Senha").IsRequired(true);
        builder.Property(nameof(Usuario.Ativo)).HasColumnName("Ativo").IsRequired(true);
+       builder.Property(nameof(Usuario.TipoUsuario)).HasColumnName("TipoUsuario").HasConversion<string>().IsRequired(true);
     
-
-       
     }
 }
 
