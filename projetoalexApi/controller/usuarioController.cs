@@ -126,7 +126,7 @@ namespace projeto360.Api
             if (usuario != null)
             {
                 //Retorna sucesso e os dados do usuário(ou um token JWT, caso esteja usando autenticação por token)
-                return Ok(new { success = true, message = "Login bem-sucedido", usuarioId = usuario.Id });
+                return Ok(new { success = true, message = "Login bem-sucedido", usuarioId = usuario.Id, tipoUsuario = usuario.TipoUsuario });
             }
             else
             {

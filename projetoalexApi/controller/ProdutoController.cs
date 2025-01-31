@@ -62,7 +62,7 @@ namespace projeto360.Api
 
                 var usuarioId = await _produtosAplicacao.Criar(produtoDominio);
 
-                return Ok(produtoCriar);
+                return Ok(usuarioId);
             }
             catch (Exception ex)
             {
