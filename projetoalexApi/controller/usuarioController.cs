@@ -41,7 +41,7 @@ namespace projeto360.Api
             }
             catch (Exception ex)
             {
-                return StatusCode(500, $"Erro ao criar: {ex.Message}");
+                return BadRequest(ex.Message);
             }
         }
 
