@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Projetoalex.Dominio.Entidades;
+
 public abstract class BaseRepositorio
 {
     protected readonly ProjetoalexContexto _contexto;
@@ -6,4 +9,6 @@ public abstract class BaseRepositorio
     {
         _contexto = contexto;
     }
+
+ 
 }

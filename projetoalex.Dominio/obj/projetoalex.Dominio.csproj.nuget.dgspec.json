@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {}
+    "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {
+    "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj",
         "projectName": "projetoalex.Dominio",
-        "projectPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj",
+        "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj",
         "packagesPath": "C:\\Users\\Alex.Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex.Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -15,6 +15,19 @@
           }
         }
       },
+      "Dapper/2.1.35": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Google.Protobuf/3.26.1": {
         "type": "package",
         "compile": {
@@ -1198,6 +1211,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Dapper": "2.1.35",
           "Microsoft.EntityFrameworkCore": "6.0.36",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.36",
           "MySql.EntityFrameworkCore": "8.0.8",
@@ -1231,6 +1245,27 @@
         "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
         "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
         "packageIcon.png"
+      ]
+    },
+    "Dapper/2.1.35": {
+      "sha512": "YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "type": "package",
+      "path": "dapper/2.1.35",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.35.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/net7.0/Dapper.dll",
+        "lib/net7.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
       ]
     },
     "Google.Protobuf/3.26.1": {
@@ -3687,11 +3722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjetoAlex\\projetoalex\\projetoalexApi\\projetoalexApi.csproj",
+      "projectUniqueName": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalexApi\\projetoalexApi.csproj",
       "projectName": "projetoalexApi",
-      "projectPath": "C:\\ProjetoAlex\\projetoalex\\projetoalexApi\\projetoalexApi.csproj",
+      "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalexApi\\projetoalexApi.csproj",
       "packagesPath": "C:\\Users\\Alex.Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjetoAlex\\projetoalex\\projetoalexApi\\obj\\",
+      "outputPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalexApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex.Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3708,14 +3743,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\ProjetoAlex\\projetoalex\\projetoalex.Aplicacao\\projetoalex.Aplicacao.csproj": {
-              "projectPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Aplicacao\\projetoalex.Aplicacao.csproj"
+            "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Aplicacao\\projetoalex.Aplicacao.csproj": {
+              "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Aplicacao\\projetoalex.Aplicacao.csproj"
             },
-            "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {
-              "projectPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj"
+            "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj"
             },
-            "C:\\ProjetoAlex\\projetoalex\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj": {
-              "projectPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj"
+            "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj": {
+              "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj"
             }
           }
         }

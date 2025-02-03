@@ -15,6 +15,19 @@
           }
         }
       },
+      "Dapper/2.1.35": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Google.Protobuf/3.26.1": {
         "type": "package",
         "compile": {
@@ -1147,6 +1160,27 @@
         "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
         "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
         "packageIcon.png"
+      ]
+    },
+    "Dapper/2.1.35": {
+      "sha512": "YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
+      "type": "package",
+      "path": "dapper/2.1.35",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.35.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/net7.0/Dapper.dll",
+        "lib/net7.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
       ]
     },
     "Google.Protobuf/3.26.1": {
@@ -3274,6 +3308,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Dapper >= 2.1.35",
       "Microsoft.EntityFrameworkCore >= 6.0.36",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.36",
@@ -3287,11 +3322,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj",
+      "projectUniqueName": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj",
       "projectName": "projetoalex.Repositorio",
-      "projectPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj",
+      "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Repositorio\\projetoalex.Repositorio.csproj",
       "packagesPath": "C:\\Users\\Alex.Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Repositorio\\obj\\",
+      "outputPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Repositorio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex.Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3308,8 +3343,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {
-              "projectPath": "C:\\ProjetoAlex\\projetoalex\\projetoalex.Dominio\\projetoalex.Dominio.csproj"
+            "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Dominio\\projetoalex.Dominio.csproj"
             }
           }
         }
@@ -3329,6 +3364,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.35, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.36, )"

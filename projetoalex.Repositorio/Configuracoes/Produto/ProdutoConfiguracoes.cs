@@ -16,7 +16,8 @@ public class ProdutoConfiguracoes : IEntityTypeConfiguration<Produtos>
         builder.Property(nameof(Produtos.Id)).HasColumnName("ProdutoId");
         builder.Property(nameof(Produtos.Nome)).HasColumnName("Nome").IsRequired(true);
         builder.Property(nameof(Produtos.Preco)).HasColumnName("Preco").IsRequired(true);
-        builder.Property(nameof(Produtos.Preco)).HasColumnName("Descricao").IsRequired(true);
+        builder.Property(nameof(Produtos.Ativo)).HasColumnName("Ativo").IsRequired(true);
+        builder.Property(nameof(Produtos.Descricao)).HasColumnName("Descricao").IsRequired(true);
       
     }
 }

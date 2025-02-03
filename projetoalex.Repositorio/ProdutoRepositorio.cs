@@ -1,5 +1,8 @@
 
+using System.Data;
+using Dapper;
 using Microsoft.EntityFrameworkCore;
+using projetoalex.Repositorio.Migrations;
 using Projetoalex.Dominio.Entidades;
 
 namespace DataAccess.Repositorio;
@@ -36,6 +39,26 @@ public class ProdutoRepositorio : BaseRepositorio, IProdutoRepositorio
 
         return produtos.Id;
     }
+    public async Task<Produtos> AtualizarProdutoAsyncPro(int produtoId, string nome, string descricao, decimal preco )
+    {
+       
+        var parametros = new { ProdutoId = produtoId, Nome = nome, Descricao = descricao, Preco = preco };
 
- 
+        
+        await _contexto.Database.GetDbConnection().ExecuteAsync(
+            "Atualizarproduto", 
+            parametros, 
+            commandType: System.Data.CommandType.StoredProcedure 
+        );
+
+       
+        return await _contexto.produtos
+            .FirstOrDefaultAsync(p => p.Id == produtoId); 
+    }
+
+
+
+
+
+
 }

@@ -77,6 +77,14 @@ public class ProdutoAplicacao : IProdutosAplicacao
     }
 
 
+    public async Task AtualizarProdutoAsync(int produtoId, string nome, string descricao, decimal  preco)
+    {
+        await _produtoRepositorio.AtualizarProdutoAsyncPro(produtoId, nome, descricao, preco );
+    }
+
+
+
+
 
 
     #region Util

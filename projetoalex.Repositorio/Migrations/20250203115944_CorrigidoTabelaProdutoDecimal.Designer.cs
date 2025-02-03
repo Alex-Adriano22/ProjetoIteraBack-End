@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace projetoalex.Repositorio.Migrations
 {
     [DbContext(typeof(ProjetoalexContexto))]
-    partial class ProjetoalexContextoModelSnapshot : ModelSnapshot
+    [Migration("20250203115944_CorrigidoTabelaProdutoDecimal")]
+    partial class CorrigidoTabelaProdutoDecimal
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,8 +32,7 @@ namespace projetoalex.Repositorio.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<bool>("Ativo")
-                        .HasColumnType("bit")
-                        .HasColumnName("Ativo");
+                        .HasColumnType("bit");
 
                     b.Property<string>("Descricao")
                         .IsRequired()

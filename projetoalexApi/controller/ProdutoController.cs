@@ -157,6 +157,29 @@ namespace projeto360.Api
             }
         }
 
+        [HttpPut("AtulizarProduto")]
+        public async Task<IActionResult> AtualizarProduto([FromBody] ProdutoAtualizar produtoAtualizar)
+        {
+            if (produtoAtualizar == null)
+            {
+                return BadRequest("Dados inválidos.");
+            }
+
+
+            try
+            {
+
+                await _produtosAplicacao.AtualizarProdutoAsync(produtoAtualizar.Id, produtoAtualizar.Nome, produtoAtualizar.Descricao, produtoAtualizar.Preco);
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
 
 
     }
