@@ -1,0 +1,13 @@
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\bin\Debug\net6.0\projetoalex.Services.deps.json
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\bin\Debug\net6.0\projetoalex.Services.dll
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\bin\Debug\net6.0\projetoalex.Services.pdb
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.csproj.AssemblyReference.cache
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.AssemblyInfoInputs.cache
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.AssemblyInfo.cs
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.csproj.CoreCompileInputs.cache
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.sourcelink.json
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.dll
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\refint\projetoalex.Services.dll
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\projetoalex.Services.pdb
+C:\Users\Alex.Santos\Desktop\ProjetoSexta\ProjetoBackEnd\ProjetoIteraBack-End\projetoalex.Services\obj\Debug\net6.0\ref\projetoalex.Services.dll

@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoalex.Repositorio", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoalex.Aplicacao", "projetoalex.Aplicacao\projetoalex.Aplicacao.csproj", "{858C1F5F-FA4C-4C63-84EE-6401B6CC2E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoalexApi", "projetoalexApi\projetoalexApi.csproj", "{6EC300E5-4D97-44C1-90A3-249C0A3E3680}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoalex.Api", "projetoalex.Api\projetoalex.Api.csproj", "{6EC300E5-4D97-44C1-90A3-249C0A3E3680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetoalex.Services", "projetoalex.Services\projetoalex.Services.csproj", "{8C9D9142-F115-4CC2-9466-596351B7B1A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +38,9 @@ Global
 		{6EC300E5-4D97-44C1-90A3-249C0A3E3680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EC300E5-4D97-44C1-90A3-249C0A3E3680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EC300E5-4D97-44C1-90A3-249C0A3E3680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9D9142-F115-4CC2-9466-596351B7B1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9D9142-F115-4CC2-9466-596351B7B1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9D9142-F115-4CC2-9466-596351B7B1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9D9142-F115-4CC2-9466-596351B7B1A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
