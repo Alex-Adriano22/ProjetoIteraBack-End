@@ -17,7 +17,7 @@ namespace projetoalex.Services
         public async Task<OllamaResponse> GenerateTextAsync(string model, string prompt)
         {
             var url = "http://localhost:8000/api/generate";  // URL da sua API FastAPI
-
+            
             var requestData = new 
             {
                 model = model,

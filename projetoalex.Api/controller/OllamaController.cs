@@ -23,8 +23,9 @@ namespace projeto360.Api
         {
             try
             {
+                var model = "phi3";
                 // Obtendo a resposta da API
-                var resultado = await _ollamaService.GenerateTextAsync(request.model, request.prompt);
+                var resultado = await _ollamaService.GenerateTextAsync(model, request.prompt);
 
                 return Ok(resultado); 
             }
