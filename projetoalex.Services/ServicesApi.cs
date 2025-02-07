@@ -16,7 +16,7 @@ namespace projetoalex.Services
 
         public async Task<OllamaResponse> GenerateTextAsync(string model, string prompt)
         {
-            var url = "http://localhost:8000/api/generate";  // URL da sua API FastAPI
+            var url = "http://localhost:8000/api/Ollama";  // URL da sua API FastAPI
             
             var requestData = new 
             {
@@ -33,7 +33,7 @@ namespace projetoalex.Services
             {
                 var responseData = await response.Content.ReadAsStringAsync();
                 var result = JsonConvert.DeserializeObject<OllamaResponse>(responseData);
-                return result;  // Retorna o objeto OllamaResponse
+                return result;  
             }
             else
             {

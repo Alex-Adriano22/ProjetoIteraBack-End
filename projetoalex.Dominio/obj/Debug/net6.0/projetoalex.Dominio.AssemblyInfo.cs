@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("projetoalex.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b1a714b62fff7bae0c2dd1889ab5b048af7838f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35ad8e0d75bf9f649be111e6492d440981b89222")]
 [assembly: System.Reflection.AssemblyProductAttribute("projetoalex.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("projetoalex.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

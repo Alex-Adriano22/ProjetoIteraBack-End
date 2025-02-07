@@ -2,6 +2,7 @@
 
 using Microsoft.EntityFrameworkCore;
 using projetoalex.Repositorio.Configuracoes;
+using Projetoalex.Dominio;
 using Projetoalex.Dominio.Entidades;
 
 public class ProjetoalexContexto : DbContext
@@ -10,6 +11,7 @@ public class ProjetoalexContexto : DbContext
 
     public DbSet<Usuario> Usuarios { get; set; }
     public DbSet<Produtos> produtos { get; set; }
+    public DbSet<Ollama> Ollamas { get; set; }
 
     public ProjetoalexContexto() { }
 
@@ -29,5 +31,6 @@ public class ProjetoalexContexto : DbContext
     {
         modelBuilder.ApplyConfiguration(new UsuariosConfiguracoes());
         modelBuilder.ApplyConfiguration(new ProdutoConfiguracoes());
+        modelBuilder.ApplyConfiguration(new OllamaConfiguracoes());
     }
 }

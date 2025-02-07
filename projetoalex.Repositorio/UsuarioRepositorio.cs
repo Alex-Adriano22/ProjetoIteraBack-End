@@ -21,7 +21,7 @@ public class UsuarioRepositorio : BaseRepositorio, IUsuarioRepositorio
     catch (DbUpdateException ex)
     {
         Console.WriteLine($"Erro ao atualizar: {ex.InnerException?.Message ?? ex.Message}");
-        throw; // Re-lança a exceção para depuração adicional
+        throw; 
     }
     catch (Exception ex)
     {

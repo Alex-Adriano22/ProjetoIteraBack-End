@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj": {}
+    "c:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj": {
+    "c:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj",
+        "projectUniqueName": "c:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj",
         "projectName": "projetoalex.Services",
-        "projectPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj",
+        "projectPath": "c:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\projetoalex.Services.csproj",
         "packagesPath": "C:\\Users\\Alex.Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\obj\\",
+        "outputPath": "c:\\Users\\Alex.Santos\\Desktop\\ProjetoSexta\\ProjetoBackEnd\\ProjetoIteraBack-End\\projetoalex.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex.Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",

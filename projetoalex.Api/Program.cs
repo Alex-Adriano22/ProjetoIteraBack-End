@@ -1,8 +1,10 @@
 using DataAccess.Repositorio;
 using Microsoft.EntityFrameworkCore;
 using projetoalex.Aplicacao;
+using projetoalex.Repositorio;
 using projetoalex.Services;
 using Projetoalex.Dominio;
+using Projetoalex.Repositorio;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,12 +12,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Adicione aplicações
 builder.Services.AddScoped<IUsuarioAplicacao, UsuarioAplicacao>();
 builder.Services.AddScoped<IProdutosAplicacao, ProdutoAplicacao>();
+builder.Services.AddScoped<IOllamaAplicacao, OllamaAplicacao>();
 
 
 
 //Adicione repositorio
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
+builder.Services.AddScoped<IOllamaRepositorio, OllamaRepositorio>();
 
 // IA Ollama
 builder.Services.AddHttpClient<OllamaService>();

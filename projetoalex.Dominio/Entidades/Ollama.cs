@@ -6,21 +6,11 @@ namespace Projetoalex.Dominio
 {
     public class Ollama
     {
-        // [JsonIgnore]
+        public int Id { get; set; }
         public string Model { get; set; }
         public string Prompt { get; set; }
+        public string Resposta { get; set; }
 
-        // public bool Stream { get; set; }
-
-        // public Ollama()
-        // {
-        //     Model = "phi3";
-        // }
-
-        // public Ollama()
-        // {
-        //     Stream = false;
-        // }
     }
 
 
